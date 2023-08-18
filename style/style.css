@@ -6,7 +6,10 @@
    box-sizing: border-box;
 }
 
-html{ scroll-behavior: smooth; }
+html{ 
+   scroll-behavior: smooth;
+   height: 100%;
+}
 
 body {
    font-family: 'Montserrat', sans-serif;
