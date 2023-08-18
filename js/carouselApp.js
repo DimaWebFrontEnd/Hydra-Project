@@ -12,7 +12,7 @@ const showHideIconsHB = () => {
    let scrollWidthHB = carouselHB.scrollWidth - carouselHB.clientWidth;
    
    arrowIconsHB[0].style.opacity = carouselHB.scrollLeft === 0 ? "0" : "1";
-   arrowIconsHB[1].style.opacity = carouselHB.scrollLeft === scrollWidthHB ? "0" : "1";
+   arrowIconsHB[1].style.display = carouselHB.scrollLeft === scrollWidthHB ? "none" : "block";
 }
 
 arrowIconsHB.forEach(icon => {
