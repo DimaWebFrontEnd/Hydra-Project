@@ -329,7 +329,7 @@ header h1 {
 .header-bottom-container i:nth-child(2) {
    right: 5%;
    padding: 2px;
-   display: none;
+   opacity: 0;
    outline: none;
 }
 
@@ -1622,7 +1622,7 @@ form {
       display: block;
    }
    .header-bottom-container i:nth-child(2) {
-      display: block;
+      opacity: 1;
    }
 
    .header-bottom {
