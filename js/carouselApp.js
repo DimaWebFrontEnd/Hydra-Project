@@ -46,6 +46,7 @@ const startDragHB = (e) => {
 
 const draggingHB = (e) => {
    if(!isDragStartHB) return;
+   //e.preventDefault();
    isDraggingHB = true;
    carouselHB.classList.add('draggingHB')
    positionDiffHB = (e.pageX || e.touches[0].pageX) - prevPageXHB;
