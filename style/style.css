@@ -334,7 +334,7 @@ header h1 {
    outline: none;
 }
 
-.head-bott-container.head-bott-container {
+.header-bottom-container .head-bott-container {
    font-size: 1.3rem;
    width: 30px;
    height: 30px;
