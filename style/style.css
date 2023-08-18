@@ -1679,7 +1679,7 @@ form {
    **/
 
    .hero {
-      transform: scale(0.8);
+      transform: scale(0.85);
       margin-inline: auto;
    }
 
@@ -1867,7 +1867,7 @@ form {
 *  ! ABOUT
 **/
 .hero-container {
-   transform: scale(0.8);
+   transform: scale(0.85);
 }
 
 /**  
@@ -1943,10 +1943,15 @@ form {
       padding-left: 5px;
       padding-right: 5px;
    }
-   
+/**  
+*  ! ABOUT
+**/
+.hero-container {
+   transform: scale(0.7);
+}
 
- /**
-   * ! UNITY
+/**
+* ! UNITY
 **/
 
 .carousel-unity i:first-child {
