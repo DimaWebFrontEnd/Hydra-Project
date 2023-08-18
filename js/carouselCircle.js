@@ -46,7 +46,6 @@ const startDragCr = (e) => {
 
 const draggingCr = (e) => {
    if(!isDragStartCr) return;
-   e.preventDefault();
    isDraggingCr = true;
    carouselCr.classList.add('draggingCr')
    positionDiffCr = (e.pageX || e.touches[0].pageX) - prevPageXCr;
