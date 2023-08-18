@@ -46,7 +46,6 @@ const startDragUn = (e) => {
 
 const draggingUn = (e) => {
    if(!isDragStartUn) return;
-   e.preventDefault();
    isDraggingUn = true;
    carouselUn.classList.add('draggingUn')
    positionDiffUn = (e.pageX || e.touches[0].pageX) - prevPageXUn;
