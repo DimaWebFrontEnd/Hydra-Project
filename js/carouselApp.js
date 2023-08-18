@@ -1,6 +1,7 @@
 const carouselHB = document.querySelector('.header-bottom');
 const firstDivHB = carouselHB.querySelectorAll('.carousel-div')[0];
-const arrowIconsHB = document.querySelectorAll('.header-bottom-container i')
+//const arrowIconsHB = document.querySelectorAll('.header-bottom-container i');
+const arrowIconsHB = document.querySelectorAll('[data-img]');
 
 let isDragStartHB = false;
 let isDraggingHB = false;
