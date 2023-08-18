@@ -320,7 +320,7 @@ header h1 {
    position: relative;
 }
 
-.header-bottom-container i:first-child {
+/* .header-bottom-container i:first-child {
    left: 5%;
    padding: 2px;
    display: none;
@@ -341,7 +341,36 @@ header h1 {
    color: white;
    border: 2px solid white;
    background: transparent;
+} */
+
+.header-bottom-container > img:first-child {
+   width: 30px;
+   height: 30px;
+   left: 5%;
+   padding: 2px;
+   display: none;
+   outline: none;
+   position: absolute;
+   top: 50%;
+   z-index: 2;
+   cursor: pointer;
+   transform: translate(-50%, -50%) rotate(180deg);
 }
+.header-bottom-container > img:nth-child(2) {
+   width: 30px;
+   height: 30px;
+   padding: 2px;
+   display: none;
+   outline: none;
+   position: absolute;
+   top: 50%;
+   right: 5%;
+   z-index: 2;
+   cursor: pointer;
+   transform: translate(50%, -50%);
+
+}
+ 
 
 .header-bottom {
    height: 167px;
@@ -1618,13 +1647,18 @@ form {
    /**
    * ! HADER BOTTOM 
    */
-
-   .header-bottom-container i:first-child {
+  .header-bottom-container > img:first-child {
+      display: block;
+   }
+   .header-bottom-container > img:nth-child(2) {
+      display: block;
+   }
+   /* .header-bottom-container i:first-child {
       display: block;
    }
    .header-bottom-container i:nth-child(2) {
       opacity: 1;
-   }
+   } */
 
    .header-bottom {
       flex-direction: row;
