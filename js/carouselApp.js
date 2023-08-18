@@ -24,7 +24,7 @@ arrowIconsHB.forEach(icon => {
 })
 
 const autoSlideHB = () => {
-   if (carouselHB.scrollLeft == (carouselHB.scrollWidth - carouselHB.clientWidth)) return;
+   if (carouselHB.scrollLeft === (carouselHB.scrollWidth - carouselHB.clientWidth)) return;
 
    positionDiffHB = Math.abs(positionDiffHB);
    let firstDivWidthHB = firstDivHB.clientWidth + 30;
