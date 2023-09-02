@@ -24,6 +24,7 @@ body {
    max-width: 1420px;
    color: #FFFFFF;
    overflow-x: hidden;
+   -webkit-tap-highlight-color: transparent;
 }
 
 /**/
